@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.map {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+#editor {
+    height: 100vh;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.row {
+    margin-bottom: -50px;
+}
+
+.block {
+    background-position-y: -40px;
+    width: 100px;
+    height: 133px;
+}
+
+.grass-block {
+    background-image: url('../images/grass-block.png');
+}
+
+.water-block {
+    background-image: url('../images/water-block.png');
+}
+
+.stone-block {
+    background-image: url('../images/stone-block.png');
+}
+
+.rock {
+    position: relative;
+    top: -20px;
+    background-image: url('../images/Rock.png');
+}
+
+.key {
+    position: relative;
+    top: -10px;
+    background-image: url('../images/Key.png');
+}
+
+.player {
+    position: absolute;
+    width: 101px;
+    height: 90px;
+    background-image: url('../images/char-cat-girl.png');
+    background-position: 0 -55px;
+}

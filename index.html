@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap flex">
+    <div class="map"></div>
+    <div id="editor">
+function mapa() {
+  /* 0: "stone" | 1: "grass" | 2: "water" | 3: "rock" | 4: "key" */
+  let coordenadas = [
+    [1, 3, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 3, 0, 0, 0, 0],
+    [0, 0, 0, 0, 4, 3, 0, 0],
+    [2, 2, 2, 2, 2, 2, 2, 2],
+  ];
+
+  return coordenadas;
+}</div>
+    </div>
+    <script src="vendor/ace-1.4.14/ace.js"></script>
+    <script src="vendor/jquery-3.6.0.min.js"></script>
+    <script src="vendor/jquery-ui-1.13.1.custom/jquery-ui.min.js"></script>
+    <script src="vendor/lodash.min.js"></script>
+    <script src="vendor/redom.min.js"></script>
+    <script src="js/ace.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
